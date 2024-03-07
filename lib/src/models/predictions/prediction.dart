@@ -24,7 +24,7 @@ class Prediction {
   final PredictionStatus status;
   final Map<String, dynamic> input;
   final dynamic output;
-  final String? error;
+  final dynamic error;
   final String logs;
   final PredictionMetrics? metrics;
 
