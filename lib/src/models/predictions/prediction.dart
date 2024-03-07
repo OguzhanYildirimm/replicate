@@ -12,7 +12,7 @@ class Prediction extends Equatable {
   final PredictionUrls urls;
   final DateTime createdAt;
   final Map<String, dynamic> input;
-  final String? error;
+  final dynamic error;
   final String? logs;
   final String model;
 
